@@ -1,0 +1,65 @@
+import Vue from 'vue'
+import {
+    Button,
+    Message,
+    Form,
+    FormItem,
+    Input,
+    Radio,
+    RadioGroup,
+    Loading,
+    Container,
+    Main,
+    Footer,
+    Header,
+    Aside,
+    Submenu,
+    Menu,
+    MenuItem,
+    MenuItemGroup,
+    MessageBox,
+    Breadcrumb,
+    BreadcrumbItem,
+    Card,
+    Row,
+    Col,
+    Table,
+    TableColumn,
+    Tooltip,
+    Dialog,
+    Pagination,
+    Select,
+    Option,
+    DatePicker
+} from 'element-ui'
+Vue.use(Button)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Input)
+Vue.use(Radio)
+Vue.use(RadioGroup)
+Vue.use(Container)
+Vue.use(Main)
+Vue.use(Header)
+Vue.use(Footer)
+Vue.use(Aside)
+Vue.use(Submenu)
+Vue.use(Menu)
+Vue.use(Loading)
+Vue.use(MenuItem)
+Vue.use(MenuItemGroup)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Card)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Tooltip)
+Vue.use(Dialog)
+Vue.use(Select)
+Vue.use(Pagination)
+Vue.use(Option)
+Vue.use(DatePicker)
+Vue.prototype.$message = Message
+Vue.prototype.$confirm = MessageBox.confirm
